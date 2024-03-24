@@ -1,0 +1,165 @@
+    1  ls
+    2  ls -al
+    3  clear
+    4  touch sample.txt
+    5  ls *.txt
+    6  touch sample.json
+    7  touch sample2.json
+    8  ls *.txt
+    9  ls *.json
+   10  ls -al *.json
+   11  sudo chmod +x sample.json 
+   12  ls -al *.json
+   13  sudo adduser nour
+   14  su nour
+   15  sudo deluser nour
+   16  ssh -p 5804 gmtywpsv@51.91.25.49
+   17  Y47BDgCdRC
+   18  openssl --version
+   19  sudo snap install telegram-desktop
+   20  clear
+   21  python __ version
+   22  python -- version
+   23  python --version
+   24  python3 --version
+   25  python
+   26  python3
+   27  clear
+   28  apache --version
+   29  apache2 --version
+   30  httpd --version
+   31  php --version
+   32  sudo apt install php
+   33  php --version
+   34  clear
+   35  sudo sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+   36  wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+   37  sudo apt-get update
+   38  sudo apt-get -y install postgresql
+   39  psql --version
+   40  clear
+   41  git --version
+   42  sudo apt install git
+   43  exit
+   44  #
+   45  # Setup the repository
+   46  #
+   47  # Install the public key for the repository (if not done previously):
+   48  curl -fsS https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /usr/share/keyrings/packages-pgadmin-org.gpg
+   49  # Create the repository configuration file:
+   50  sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/packages-pgadmin-org.gpg] https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
+   51  #
+   52  # Install pgAdmin
+   53  #
+   54  # Install for both desktop and web modes:
+   55  sudo apt install pgadmin4
+   56  # Install for desktop mode only:
+   57  sudo apt install pgadmin4-desktop
+   58  # Install for web mode only: 
+   59  sudo apt install pgadmin4-web 
+   60  # Configure the webserver, if you installed pgadmin4-web:
+   61  sudo /usr/pgadmin4/bin/setup-web.sh
+   62  exit
+   63  systemctl start psql
+   64  systemctl start postgresql
+   65  systemctl status postgresql
+   66  clear
+   67  psql -h localhost -U postgres
+   68  exit
+   69  sudo apt update
+   70  sudo apt install synaptic
+   71  sudo apt install gparted
+   72  top
+   73  htop
+   74  history
+   75  historytop
+   76  sudo snap install code --classic
+   77  code .
+   78  mkdir project
+   79  cd mkdir
+   80  cd project
+   81  code.
+   82  code  .
+   83  exit
+   84  sudo snap install telegram-desktop
+   85  printenv > "/tmp/tmp-19451R5fSjaoJ7t8c.txt"
+   86  sudo -u -i
+   87  sudo -i -u
+   88  sudo -i -u pgsql
+   89  su
+   90  CLEAR
+   91  clear
+   92  mkdir projet1
+   93  cd projet1
+   94  pip install virtualenv
+   95  pip3 install virtualenv
+   96  udo apt install python3-pip
+   97  sudo apt install python3-pip
+   98  clear 
+   99  pip --version
+  100  pip install virtualenv
+  101  pip prise
+  102  pip freeze
+  103  pip list
+  104  pip freeze
+  105  pip freeze>requirements.txt
+  106  pip install -r requirements.txt 
+  107  python -m virtualenv venv/ .
+  108  python3 -m virtualenv venv/ .
+  109  python3 -m virtualenv venv/
+  110  cd venv/
+  111  cd bin
+  112  source activate
+  113  which python
+  114  which pip
+  115  pip freeze
+  116  pip install django
+  117  cd ..
+  118  clear
+  119  pip freeze>requirments.txt
+  120  pip freeze>requirements.txt
+  121  django-admin --help
+  122  django-admin startproject elerarning .
+  123  pip --version
+  124  python3 -m pip --version
+  125  sudo snap install android-studio --classic
+  126  sudo dpkg -i zulu17.48.15-ca-fx-jdk17.0.10-linux_amd64.deb 
+  127  sudo 
+  128  clear
+  129  sudo apt-get install java-common libpango1.0-0 libgdk-pixbuf2.0-0 libgl1-mesa-glx
+  130  sudo apt --fix-broken install
+  131  sudo apt-get install java-common libpango1.0-0 libgdk-pixbuf2.0-0 libgl1-mesa-glx
+  132  sudo dpkg -i zulu17.48.15-ca-fx-jdk17.0.10-linux_amd64.deb 
+  133  java --version
+  134  psql -h localhost -U postgres
+  135  systemctl stop postgresql
+  136  git init
+  137  git add .
+  138  git commit -m "first commit"
+  139  git config --global user.email "meriem.benzeka@gmail.com"
+  140  git add .
+  141  git commit -m "first commit"
+  142  git branch -M main
+  143  git remote add origin https://github.com/meriemnourelhouda/projet_test.git
+  144  git push -u origin main
+  145  git config --global user.email "meriem.benzeka@gmail.com"
+  146  git add .
+  147  git config --global user.email "meriem.benzeka@gmail.com"
+  148  git add .
+  149  git commit -m "first commit"
+  150  git push -u origin main
+  151  ls -al
+  152  rm -rf .git/
+  153  git init
+  154  /bin/python3 /home/meriem/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/printEnvVariablesToFile.py /home/meriem/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/deactivate/bash/envVars.txt
+  155  git init
+  156  ls -al
+  157  git add .
+  158  git commit -m "first commit"
+  159  git branch -M main
+  160  git remote add origin https://github.com/meriemnourelhouda/projet_test.git
+  161  git push -u origin main
+  162  git clone clear
+  163  git clone https://github.com/meriemnourelhouda/projet_test.git
+  164  clear
+  165  history>history_commands.txt
